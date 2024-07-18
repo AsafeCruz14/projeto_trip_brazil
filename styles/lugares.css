@@ -21,6 +21,7 @@ ul {
 img {
     width: 200px;
     height: 200px;
+    border-radius: 5px;
 }
 
 a {
@@ -31,15 +32,16 @@ a {
 
 .tituloPrincipal {
     color: #0b68eb;
+    padding: 20px 20px 5px 20px;
+}
+
+.tituloP {
+    padding: 5px 20px 5px 20px;
+    color: #0b68eb;
 }
 
 .titulos {
     color: #0b68eb;
+    padding: 5px 5px 10px 10px ;
 }
 
-footer{
-    background-color: #03037b;
-    color: white;
-    display: flex;
-    justify-content: center;
-}

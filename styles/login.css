@@ -22,3 +22,24 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+form {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+}
+
+img {
+    border-radius: 5px;
+}

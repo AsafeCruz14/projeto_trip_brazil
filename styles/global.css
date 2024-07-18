@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    align-items: center;
+    
+    column-gap: 64px;
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 5px;
+    background-color: #03037b;
+    color: white;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+    
+}
+
+
+
+.menu-navbar {
+    display: flex;
+   align-items: center;
+   column-gap: 300px;
+   list-style: none;
+   justify-content: end;
+}
+
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: #03037b;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
