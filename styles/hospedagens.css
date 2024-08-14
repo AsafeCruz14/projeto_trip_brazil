@@ -47,3 +47,34 @@ a {
     align-items: center;
     padding: 20px;
 }
+
+footer{
+    background-color: #03037b;
+    color: white;
+    display: relative;
+    margin-top: 180px;
+}
+
+.letra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media  screen and (max-width: 1020px) {
+    .menu-navbar {
+        display: none;
+    }
+
+    .lugares {
+        flex-direction: column;
+    }
+ 
+
+    .titulos {
+        padding-top: 25px;
+    }
+
+    
+}  

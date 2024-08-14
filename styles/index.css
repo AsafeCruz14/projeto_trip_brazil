@@ -53,9 +53,41 @@ form {
     align-items: center;
    position: relative;
    left: 300px;
-   background-color: #0b68eb    ;
+   /* background-color: #0b68eb    ; */
+   font-size: large;
+   color: #0b68eb;
+   margin: 15px 0px 40px 150px;
+   
 }
 
+footer{
+    background-color: #03037b;
+    color: white;
+    display: relative;
+    margin-top: 10px;
+    
+}
+
+.letra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media  screen and (max-width: 1020px) {
+    .menu-navbar {
+        display: none;
+    }
+
+    .lugares {
+        flex-direction: column;
+    }
+ 
+
+    .titulos {
+        padding-top: 25px;
+    }
+}  
 
 
 

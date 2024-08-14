@@ -3,6 +3,11 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    height: 100vh;
 }
 
 .menu {
@@ -23,23 +28,34 @@ a {
     text-decoration: none;
 }
 
-.formulario{
-    display: flex;
+form {
+    display: inline-block;
     align-items: center;
-    justify-items: center;
+   position: relative;
+   left: 300px;
+   font-size: large;
+   color: #0b68eb;
+   margin: 50px 0px 40px 300px;
+  
+   
 }
 
-form {
-    height: 400px;
-    width: 400px;
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    padding: 5px 5px 5px 5px;
-    border-radius: 3px;
-}
 
 img {
     border-radius: 5px;
+}
+
+footer{
+    background-color: #03037b;
+    color: white;
+    display: relative;
+    margin-top: 200px;
+    
+    
+}
+
+.letra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    height: 100vh;
+}
+
 .menu {
     background-color: #03037b;
     color: white;
@@ -45,3 +49,34 @@ a {
     padding: 5px 5px 10px 10px ;
 }
 
+footer{
+    background-color: #03037b;
+    color: white;
+    display: relative;
+    margin-top: 139px;
+    
+}
+
+.letra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media  screen and (max-width: 1020px) {
+    .menu-navbar {
+        display: none;
+    }
+
+    .lugares {
+        flex-direction: column;
+    }
+ 
+
+    .titulos {
+        padding-top: 25px;
+    }
+
+    
+}  
